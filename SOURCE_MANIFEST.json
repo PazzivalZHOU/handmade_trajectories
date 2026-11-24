@@ -8,5 +8,8 @@
     "native_calibration.py": "450bff72c75f6188e79803d09cfcf6a0755896db5da6893ee02a81363c700eb3"
   },
   "test_source": "test_contracts.py:SketchTests",
-  "scope": "Human sketch UI and offline DS input adapters; no experiment data or model credentials"
+  "scope": "Human sketch UI and offline DS input adapters, with retained public RGB snapshots for offline practice; no model credentials",
+  "sample_assets": {
+    "solve_equation_round13_000000": "samples/solve_equation_round13_000000/manifest.json"
+  }
 }

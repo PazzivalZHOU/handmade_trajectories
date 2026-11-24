@@ -1,0 +1,37 @@
+{
+  "schema": "human-trajectory-practice-images-v1",
+  "task": "solve_equation",
+  "sample_id": "solve_equation_round13_000000",
+  "source_round": 13,
+  "observation_id": "000000",
+  "source": "experiments/state_aware_rsi_pilot/knowledge/initial/lessons/public_history/round_13/000000",
+  "usage": "Retained historical RGB observations for offline human sketch practice; not a live episode",
+  "recommended_camera": "head",
+  "recommended_arm": "right",
+  "recommended_point_semantics": "gripper_tcp",
+  "images": {
+    "current_cam_head.png": {
+      "camera": "head",
+      "width": 640,
+      "height": 480,
+      "sha256": "83da2cdd1c474444a66118ae624394a9fe811c4f1f91ab1e4a6ff02efdd35824",
+      "bytes": 411493
+    },
+    "current_cam_left_wrist.png": {
+      "camera": "left_wrist",
+      "width": 640,
+      "height": 480,
+      "sha256": "4913b054946f8d139eca12004049ddf39cc3eed3cbdd304a202c1727e4c00e51",
+      "bytes": 353502
+    },
+    "current_cam_right_wrist.png": {
+      "camera": "right_wrist",
+      "width": 640,
+      "height": 480,
+      "sha256": "2dae641691098523828b23de005cfb02e7bc49f40edab7ae0db780571e306008",
+      "bytes": 350071
+    }
+  },
+  "new_robot_actions": 0,
+  "new_model_calls": 0
+}

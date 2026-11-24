@@ -4,6 +4,8 @@
 
 绘制页面完全在本地运行。仅绘制不需要安装 Python、机器人模拟器或模型，也不会自动连接 DS。当前输入适配不更新模型参数，二维路径也不直接等于三维机器人动作。
 
+已附带一组可以直接试画的[历史场景原图和说明](samples/README.md)。下载仓库后，先打开 `sketch.html`，导入 `samples/solve_equation_round13_000000/current_cam_head.png`；观察编号填 `000000`，相机选 `head`，手臂选 `right`，点含义选“夹爪中心经过的位置”。
+
 ## 在电脑上绘制
 
 1. Clone 本仓库，或下载 ZIP 后解压。双击 `sketch.html`，用现代浏览器打开。
@@ -64,7 +66,7 @@ annotations/
   task_episode_head_000000.json # 人工导出的 JSON
 ```
 
-仓库初始版本只有工具和说明，没有真实实验图片或人工示范数据。
+`samples/solve_equation_round13_000000/` 已包含原界面验证使用的历史算式场景原图：头部、左腕、右腕三个视角，以及 `task.txt` 绘制说明和 `manifest.json` 图像哈希。它们用于离线标注练习，不是正在运行的实验现场。仓库没有预填的人工示范轨迹，`annotations/` 用于保存你导出的 JSON。
 
 ## 在服务器转换给 DS
 
