@@ -1,0 +1,7 @@
+observation_id,phase,native_steps_used,native_step_delta,head,left_wrist,right_wrist
+000000,初始场景,0,0,observations/000000/current_cam_head.png,observations/000000/current_cam_left_wrist.png,observations/000000/current_cam_right_wrist.png
+000001,首次提交被导入校验拒绝，未执行动作,0,0,observations/000001/current_cam_head.png,observations/000001/current_cam_left_wrist.png,observations/000001/current_cam_right_wrist.png
+000002,接近目标、下降并闭爪,21,21,observations/000002/current_cam_head.png,observations/000002/current_cam_left_wrist.png,observations/000002/current_cam_right_wrist.png
+000003,分步抬升并搬运至放置区,50,29,observations/000003/current_cam_head.png,observations/000003/current_cam_left_wrist.png,observations/000003/current_cam_right_wrist.png
+000004,下降、开爪释放、撤离与停靠,72,22,observations/000004/current_cam_head.png,observations/000004/current_cam_left_wrist.png,observations/000004/current_cam_right_wrist.png
+000005,启动机械臂返回，原生任务判定成功并终止,79,7,observations/000005/current_cam_head.png,observations/000005/current_cam_left_wrist.png,observations/000005/current_cam_right_wrist.png

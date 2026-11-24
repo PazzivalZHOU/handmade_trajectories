@@ -1,0 +1,27 @@
+{
+  "task": "solve_equation",
+  "scene_seed": 11,
+  "round": 13,
+  "native_valid": true,
+  "official_success": true,
+  "task_completed": true,
+  "terminated": true,
+  "native_steps_used": 79,
+  "executions_used": 5,
+  "source_result_sha256": "cc56f2a0cb4c5330087effa0adfee044dd9af78d64e1504d67084ffaa1c83164",
+  "source_round_manifest_sha256": "ba915f7865441840ae92c7482e18b089fdac3f001a0ce90c5aa469e0a40c1efb",
+  "analysis": {
+    "policy_version": "2026-11-24-unstarted-encoding-excluded",
+    "native_valid": true,
+    "experiment_started": true,
+    "analysis_valid": true,
+    "analysis_status": "valid_success",
+    "exclusion_reason": null,
+    "official_success": true,
+    "classification_evidence": [
+      "manifest.json#original_observations",
+      "native_evidence.json#native_steps_used"
+    ]
+  },
+  "interpretation": "Submission 000001 was rejected before any action, then fixed. The same episode subsequently executed 79 native actions and reached native success. The zero-action submission is preserved as an execution error within this episode, not counted as a separate failed episode. Native success during return_arms does not establish exact joint homing."
+}

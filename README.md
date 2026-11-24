@@ -4,7 +4,9 @@
 
 绘制页面完全在本地运行。仅绘制不需要安装 Python、机器人模拟器或模型，也不会自动连接 DS。当前输入适配不更新模型参数，二维路径也不直接等于三维机器人动作。
 
-已附带一组可以直接试画的[历史场景原图和说明](samples/README.md)。下载仓库后，先打开 `sketch.html`，导入 `samples/solve_equation_round13_000000/current_cam_head.png`；观察编号填 `000000`，相机选 `head`，手臂选 `right`，点含义选“夹爪中心经过的位置”。
+已提供 [solve_equation、seed 11、第 13 轮完整单次流程](samples/solve_equation_seed11_round13/README.md)：18 张原始观察 PNG，加上全部执行视频逐帧导出的 240 张 PNG，共 258 张图片，覆盖初始、接近抓取、搬运、放置、撤离和结束；另附全部 15 段原始执行视频及顺序索引。
+
+下载仓库后，先看[完整流程与绘制说明](samples/solve_equation_seed11_round13/README.md)，再打开 `sketch.html`。第一次可以导入 `samples/solve_equation_seed11_round13/observations/000000/current_cam_head.png`；观察编号填 `000000`，相机选 `head`，手臂选 `right`，点含义选“夹爪中心经过的位置”。
 
 ## 在电脑上绘制
 
@@ -66,7 +68,7 @@ annotations/
   task_episode_head_000000.json # 人工导出的 JSON
 ```
 
-`samples/solve_equation_round13_000000/` 已包含原界面验证使用的历史算式场景原图：头部、左腕、右腕三个视角，以及 `task.txt` 绘制说明和 `manifest.json` 图像哈希。它们用于离线标注练习，不是正在运行的实验现场。仓库没有预填的人工示范轨迹，`annotations/` 用于保存你导出的 JSON。
+`samples/solve_equation_seed11_round13/` 包含该轮完整流程的原始观察、全部视频及逐帧图片、阶段索引和来源哈希。`samples/solve_equation_round13_000000/` 另保留初始时点的三视角快捷样例。它们来自已有历史记录，用于离线标注，不是正在运行的实验现场。仓库没有预填的人工示范轨迹，`annotations/` 用于保存你导出的 JSON。
 
 ## 在服务器转换给 DS
 
