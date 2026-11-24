@@ -1,0 +1,12 @@
+{
+  "source": "experiments/rss_next_stage",
+  "copied_at": "2026-11-24",
+  "source_files": {
+    "sketch.html": "7b2f1cc485351a67c15eea8d7b37502d36b5eb73814aab3cf7da72e1bfc89ba6",
+    "trajectory.py": "023c790a1cf53a79ba9f4c464b4d473b5855acd481fc2559165f8954c4497884",
+    "trajectory_handoff.py": "bbbc9630b7628150338d310d68d20c62d713575601b2d8848ed37e794df0c345",
+    "native_calibration.py": "450bff72c75f6188e79803d09cfcf6a0755896db5da6893ee02a81363c700eb3"
+  },
+  "test_source": "test_contracts.py:SketchTests",
+  "scope": "Human sketch UI and offline DS input adapters; no experiment data or model credentials"
+}
